@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup
 
 
 BASE_URL='http://www.toutiao.com'
+
+
 def get_page_index(offset,keyword):
     data={
         'offset': offset,
